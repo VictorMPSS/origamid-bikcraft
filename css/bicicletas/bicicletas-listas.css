@@ -25,13 +25,20 @@
 
 .bicicletas-lista a {
     display: block;
+    overflow: hidden;
 }
 
 .bicicletas-lista img {
     margin-bottom: 16px;
+    transition: .3s;
 }
 
+.bicicletas-lista img:hover {
+   transform: scale(1.1);
+}  
+
 .bicicletas-lista h3 {
+    margin-top: 35px;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
@@ -44,12 +51,8 @@
     width: 8px;
     margin-right: 8px;
     display: inline-block;
-    transition: 0.2s;
 }
 
-.bicicletas-lista a:hover h3::before {
-    width: 24px;
-}
 
 .bicicletas-lista li span {
     padding-left: 20px;

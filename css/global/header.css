@@ -60,6 +60,7 @@
 
 @media (max-width: 600px) {
     .header-menu{
+        display: flex;
         gap: 12px;
     }
     .header-menu a {
