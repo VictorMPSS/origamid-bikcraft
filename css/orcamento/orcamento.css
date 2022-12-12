@@ -87,7 +87,7 @@
     border-color: var(--cor-9);
   }
   
-  .orcamento-produto input:focus + label {
+  .orcamento-produto input:focus /* quando aciona o tab */ + label {
     box-shadow: 0 0 0 2px var(--cor-p1);
     border-color: var(--cor-12);
   }
@@ -116,7 +116,7 @@
   }
   
   .orcamento-conteudo h2,
-  .orcamento-dados h2:nth-of-type(n + 2) {
+  .orcamento-dados h2:nth-of-type(n + 2) /*selecina especificamente os h2´s*/ {
     margin-top: 20px;
   }
   
